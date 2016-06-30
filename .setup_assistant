@@ -1,0 +1,8 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: lcsr_barrett
+    relative_path: models/bhand_glove.urdf.xacro
+  SRDF:
+    relative_path: config/bhand_glove.srdf
+  CONFIG:
+    generated_timestamp: 1467255931
