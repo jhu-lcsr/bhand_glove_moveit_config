@@ -19,8 +19,8 @@ write_to_file: false
 use_openmp: false
 
 noise_coefficients:
- - group_name: arm 
-   stddev: [0.3, 1.0, 1.0, 0.8, 0.3, 0.3]
+ - group_name: arm
+   stddev: [1.2, 1.0, 1.0, 0.8, 0.3, 0.3]
    min_stddev: [0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
    decay:  [0.8, 0.8, 0.8, 0.8, 0.8, 0.8]
 
